@@ -40,7 +40,7 @@ def identify_code_find(driver, type):
 
     # 存储新图
     current_time = time.time()
-    code_img_url = "./photos/" + str(current_time) + ".png"
+    code_img_url = "./photos/" + str(current_time) + ".png"  # To-do 将路径改为当前路径join
     new_img.save(code_img_url)
     return code_img_url
 
